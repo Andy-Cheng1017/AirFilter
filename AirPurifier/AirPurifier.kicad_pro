@@ -316,6 +316,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f0ceeff5-fa02-4b8a-9c0c-c01b31e6756f",
+      ""
+    ],
+    [
+      "05864cfb-c5d2-4f72-bc23-2b12c60f5265",
+      "MCU"
+    ],
+    [
+      "240ea0cd-5edd-4436-9e5f-8307d38c1af4",
+      "MotorControl"
+    ]
+  ],
   "text_variables": {}
 }

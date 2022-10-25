@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Symbol/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "1CommonUse")(type "KiCad")(uri "${KIPRJMOD}/Symbol/1CommonUse.kicad_sym")(options "")(descr ""))
+  (lib (name "AirPurifier")(type "KiCad")(uri "${KIPRJMOD}/Symbol/AirPurifier.kicad_sym")(options "")(descr ""))
+)

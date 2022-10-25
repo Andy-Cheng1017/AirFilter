@@ -1,5 +1,40 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid f0ceeff5-fa02-4b8a-9c0c-c01b31e6756f)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 111.76 53.34) (size 40.64 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 255 255 194 1.0000))
+    (uuid 05864cfb-c5d2-4f72-bc23-2b12c60f5265)
+    (property "Sheet name" "MCU" (id 0) (at 111.76 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 111.76 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 111.76 96.52) (size 40.64 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 255 255 194 1.0000))
+    (uuid 240ea0cd-5edd-4436-9e5f-8307d38c1af4)
+    (property "Sheet name" "MotorControl" (id 0) (at 111.76 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MotorControl.kicad_sch" (id 1) (at 111.76 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/05864cfb-c5d2-4f72-bc23-2b12c60f5265" (page "2"))
+    (path "/240ea0cd-5edd-4436-9e5f-8307d38c1af4" (page "3"))
+  )
 )
