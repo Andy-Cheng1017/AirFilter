@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[02/11/20]")
+  (SoftwareVersion "17.4-2019 S032 (4052516)  [8/29/2022]-[10/28/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -24,28 +24,20 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (PartMRUSelector)
+  (PartMRUSelector
+    ("CONN RCPT 4"
+      (FullPartName "CONN RCPT 4.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\m250v10_200208.dsn")
-      (Path "Design Resources" ".\m250v10_200208.dsn" "M250V10")
-      (Select "Design Resources" ".\m250v10_200208.dsn" "M250V10"
-         "P01 All Sensors"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 200 0 791"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1674 26 811")
-        (Scroll "-58 217")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\WORK\AIRFILTER\M250V10_200208\M250V10_200208.DSN")
-      (Schematic "M250V10")
-      (Page "P01 All Sensors")))
+      (Tab 0)))
   (MPSSessionName "swps9"))
